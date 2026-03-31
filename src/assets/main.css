@@ -1,0 +1,12 @@
+@import "./base.css";
+@import "tailwindcss";
+
+@theme {
+  --color-v-background-gray: #f3f4f6;
+  --color-v-card-white: #ffffff;
+  --color-v-input-bg: #e0e3e5;
+  --color-v-button-dark: #182544;
+  --color-v-text-main: #191c1e;
+  --color-v-text-gray: #45464d;
+  --color-v-link-blue: #0058be;
+}
