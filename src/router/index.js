@@ -1,8 +1,10 @@
+// Router es la manera que tiene vue de moverse entre pantallas
+
 import { createRouter, createWebHistory } from "vue-router";
 
 import DashboardLayout from "../components/DashboardLayout.vue";
 
-// Este componente lo creo despues
+// Cada uno de estos es una pantalla
 const Sales = () => import("../components/screens/Sales.vue");
 const Inventory = () => import("../components/screens/Inventory.vue");
 const Messages = () => import("../components/screens/Messages.vue");

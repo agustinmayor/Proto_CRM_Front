@@ -3,6 +3,7 @@ import { useRouter } from "vue-router";
 
 const router = useRouter();
 
+// se "activan" cuando clickeo algun boton declarado abajo y corren la función router.push que cambia de pantalla
 const goToSettings = () => router.push("/settings");
 const goToHelp = () => router.push("/help");
 </script>
